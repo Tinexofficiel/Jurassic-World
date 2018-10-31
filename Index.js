@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 var prefix = ("jw*")
 
-client.login("NTAxMDc0MTAwOTQxNDg4MTI4.DrHxag.YE83AxJP849XUdjJbj2uOVZHp8A");
+client.login(process.env.TOKEN);
 
 
 
